@@ -9,7 +9,7 @@ public class AboutArithmeticOperators {
 
     @Koan
     public void simpleOperations() {
-        assertEquals(1, __);
+        assertEquals(1, 1);
         assertEquals(1 + 1, __);
         assertEquals(2 + 3 * 4, __);
         assertEquals((2 + 3) * 4, __);
@@ -18,6 +18,7 @@ public class AboutArithmeticOperators {
         assertEquals(2 + 4 / 2, __);
         assertEquals((2 + 4) / 2, __);
     }
+    
 
     @Koan
     public void notSoSimpleOperations() {
